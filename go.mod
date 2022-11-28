@@ -3,14 +3,15 @@ module golang.ngrok.com/ngrok
 go 1.18
 
 require (
-	github.com/inconshreveable/log15 v0.0.0-20201112154412-8562bdadbbac
 	github.com/jpillora/backoff v1.0.0
+	github.com/nikolay-ngrok/log15 v0.0.0-20200806133350-3fa5a17bc154
 	github.com/stretchr/testify v1.8.0
 	google.golang.org/protobuf v1.28.1
 )
 
 require (
 	github.com/google/go-cmp v0.5.8 // indirect
+	github.com/inconshreveable/log15 v0.0.0-20201112154412-8562bdadbbac // indirect
 	github.com/kr/text v0.2.0 // indirect
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 )

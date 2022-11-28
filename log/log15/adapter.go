@@ -1,5 +1,5 @@
 // Package log15 provides a logger that writes to a
-// github.com/inconshreveable/log15.Logger and implements the
+// github.com/nikolay-ngrok/log15.Logger and implements the
 // golang.ngrok.com/ngrok/log.Logger interface.
 //
 // Adapted from the github.com/jackc/pgx log15 adapter.
@@ -8,7 +8,7 @@ package log15
 import (
 	"context"
 
-	"github.com/inconshreveable/log15"
+	"github.com/nikolay-ngrok/log15"
 )
 
 type LogLevel = int
